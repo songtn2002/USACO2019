@@ -1,4 +1,4 @@
-package classicalDS;
+package DS;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -62,7 +62,7 @@ public class BIT {
         for (int i = 0; i < N; i++){
             a[i] = Integer.parseInt(st.nextToken());
         }
-        BIT bit = classicalDS.BIT.of(a);
+        BIT bit = DS.BIT.of(a);
         System.out.println(bit.toString());
     }
 }

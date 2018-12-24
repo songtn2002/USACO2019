@@ -1,4 +1,4 @@
-package classicalDS;
+package DS;
 
 public class Trie {
 
