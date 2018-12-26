@@ -102,6 +102,7 @@ public class FoolsAndRoads {
         }
         K = Integer.parseInt(in.readLine());
         for (int i = 0; i<K; i++) tours.add(Tour.parseTour(in.readLine()));
+        in.close();
         dfs (root, 1);
         System.out.println("VS: "+ Arrays.toString(VS));
         System.out.println("DP: "+Arrays.toString(depth));
